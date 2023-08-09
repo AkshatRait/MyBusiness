@@ -1,7 +1,9 @@
+
+
 *{
     box-sizing: border-box;
     color: rgba(0, 0, 0, 0.74);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Preahvihear', sans-serif;
 }
 
 body{
@@ -24,13 +26,16 @@ nav{
 
 
 .man-img{
-    height: 142px;
-    width: 237px;
+    
 
     display: flex;
     justify-content: flex-start;
 } 
 
+.man-img img{
+    height: auto;
+    width: 200px;   
+}
 
 #business-info{
     display: flex;
@@ -51,6 +56,7 @@ nav{
 
 nav{
     padding:5px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
 
@@ -62,6 +68,77 @@ nav button{
 
 
 h1{
+    margin-bottom: 0;
     text-align: center;
-    font-weight: 800;
+    font-weight: 1100;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.sections{
+ padding:10px;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+.gallery{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 0;
+   
+}
+
+.gallery img{
+    min-width: 85px;
+    height: 100px; 
+    border-style: solid;
+    border-color: maroon;
+    border-width: 3px;
+}
+
+div + h3{
+    background-color:maroon;
+    color:white;
+    font-weight: 200 !important;
+}
+
+.flexinflex{
+    display: flex;
+    flex-direction: column;    
+}
+
+h3{
+    padding: 15px 0 15px 0 ;
+    margin: auto;
+    margin-bottom: 10px;
+
+    width: 50%;
+    text-align: center;
+
+    border-style: outset;
+    
+}
+
+
+
+button.sign-up-button{
+    background-color: chartreuse;
+    width: 100%;
+    height: 50px;
+
+    font-weight: bold;
+    border-color: greenyellow;
+    border-style: solid;
+}
+
+button.sign-up-button:hover{
+    width: 101%;
+    height: 55px;
+    transition: 2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 253, 55, 0.644);
 }
